@@ -1,0 +1,30 @@
+Vytvo?te vlastn? modul structures.py, kter? zat?m bude obsahovat funkci charFrequency().
+Jej?m ?kolem bude na z?klad? p?edan?ho ?et?zce (v?ty) prov?st anal?zu ?etnosti
+v?skytu jednotliv?ch znak?.  
+V?sledkem funkce by m?l b?t n?sleduj?c? v?stup ve form? se?azen?ho seznamu n-tic (list of tuples): 
+
+
+V?ta: T?i sta t?icet t?i st??brn?ch st??ka?ek p?est??kalo p?es t?i sta t?icet t?i st??brn?ch st?ech.
+?etnost v?skytu p?smen:
+-----------------------
+[('t', 14),
+ ('?', 13),
+ (' ', 13),
+ ('s', 8),
+ ('i', 6),
+ ('e', 6),
+ ('c', 5),
+ ('a', 4),
+ ('?', 4),
+ ('h', 3),
+ ('k', 3),
+ ('b', 2),
+ ('r', 2),
+ ('n', 2),
+ ('?', 2),
+ ('p', 2),
+ ('T', 1),
+ ('?', 1),
+ ('l', 1),
+ ('o', 1),
+ ('.', 1)]
