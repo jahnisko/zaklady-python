@@ -38,7 +38,7 @@ class Kuzel:
     @staticmethod
     def platnost_parametru(parameter):
         if parameter <= 0:
-            return False
+            raise Exception('Nevyhovujici parametr!')
         else:
             return True
 
@@ -58,7 +58,7 @@ class Kuzel:
         if self.platnost_parametru(self.r) and self.platnost_parametru(self.s):
             return math.pi * self.r * (self.r + self.s)
 
-k1 = Kuzel(5, 8, 2)
+k1 = Kuzel(5, 1, 2)
 k2 = Kuzel(5, 2, 1)
 
 # Ověříme, zdali je objekt k1 instancí třídy Kuzel
@@ -81,7 +81,7 @@ print(k1 > k2)
 print(k1 + k2)
 
 # Odečte objekty, a zjistí, o kolik je nejvyšší kužel vyšší
-print(k1 -k2)
+print(k1 - k2)
 
 # Výpočet objemu kužele:
 print('Objem kužele je: ',round(k1.objem(), 2), 'm')
